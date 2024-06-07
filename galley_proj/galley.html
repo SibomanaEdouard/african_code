@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <!-- This is the first images -->
+        <div class="gallery-grid">
+            <div class="thumbnail" data-image="./images/fox.png">
+                <img src="./images/fox.png" alt="Fennec Fox">
+            </div>
+            <!-- this is the second image -->
+            <div class="thumbnail" data-image="./images/whale.png">
+                <img src="./images/whale.png" alt="Humpback Whale">
+            </div>
+            <!-- this is the div for the third image -->
+            <div class="thumbnail" data-image="./images/baboon.png">
+                <img src="./images/baboon.png" alt="Common Brown Baboon">
+            </div>
+            <!-- div for the last image -->
+            <div class="thumbnail" data-image="./images/deer.png">
+                <img src="./images/deer.png" alt="Spotted Deer">
+            </div>
+        </div>
+    </div>
+
+    <!-- this is to make the image bigger -->
+    <div class="fullsize-container">
+        <div class="fullsize-image">
+            <img src="" alt="Full-size Image">
+            <span class="close-btn">&times;</span>
+        </div>
+    </div>
+<!-- this is to import the javascript file to do the functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
